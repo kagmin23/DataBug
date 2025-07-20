@@ -41,12 +41,12 @@ const FetchForm: React.FC<FetchFormProps> = ({ onFetch, isLoading }) => {
   return (
     <Card className="sticky top-4">
       <CardContent className="p-6">
-        <Typography variant="h6" className="mb-4 flex items-center gap-2">
+        <Typography variant="h6" style={{ marginBottom: 10}} className="mb-4 flex items-center gap-2">
           <LinkIcon className="w-5 h-5" />
           Thông tin cào dữ liệu
         </Typography>
         
-        <div className="space-y-4">
+        <div className="space-y-5">
           <TextField
             label="Nhập URL website"
             variant="outlined"
